@@ -59,7 +59,7 @@ ROOT_URLCONF = 'signup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIRS],
+        'DIRS': [TEMPLATES_DIRS,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
